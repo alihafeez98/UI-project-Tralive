@@ -1,0 +1,396 @@
+
+body{
+  max-width: 100%;
+}
+/* navbar */
+
+.nav-item{
+  color: darkblue;
+  padding: 20px;
+}
+.nav-link{
+  color: darkblue;
+}
+
+.nav-link:hover {
+  text-decoration: underline;
+}
+
+.btn-primary{
+  background-color: gold;
+  border: none;
+  padding: 15px 30px;
+}
+
+/*under navbar*/
+
+.display-4{
+  font-weight: bold;
+  text-align: center;
+  color: darkblue;
+
+}
+.lead1{
+  text-align: center ;
+  color: darkblue;
+  font-size: 20px;
+}
+
+.btn-outline-secondary{
+  align-items: center;
+  background-color: darkblue;
+  color: white;
+}
+.btn-outline-secondary:hover
+{
+  background-color: gold;
+  border: none;
+}
+.background{
+  background-position: center;
+  background-size: cover;
+  overflow: hidden;
+  margin-top: -50px;
+  height: 880PX;
+  background-image: url('img/bg.webp');
+}
+
+.car{
+  margin-top: 260px;
+}
+
+
+
+/* event details  */
+.lead2{
+  text-align: center ;
+  color: skyblue;
+  padding-left: 20%;
+  padding-right: 20%;
+  padding-top: 4rem;
+  font-size: 20px;
+}
+
+
+/* three column section  */
+
+.allcards{
+  width: 60%;
+
+}
+.card{
+  width: 100%;
+}
+
+.details{
+  padding: 0px 1rem;
+}
+
+.ser1-des{
+  font-size: 20px;
+  color: darkblue;
+  font-weight: bold;
+  float: left;
+}
+.ser1-price{
+  font-size: 20px;
+  float: right;
+  color: skyblue;
+  font-weight: bold;
+
+}
+.btn-date{
+  color: skyblue;
+  background-color: rgb(227, 233, 238);
+  border-radius: 5px;
+  padding-left: 10px;
+}
+
+
+/* Two Column Section  */
+
+
+.lead3{
+  color: skyblue;
+  font-size: 20px;
+}
+
+.display-5{
+  font-weight: bold;
+  font-size: 50px;
+  color: darkblue;
+}
+
+
+.about-content {
+  padding-left: 90px;
+}
+
+.about-text {
+  font-size: 18px;
+  line-height: 1.8;
+  margin-bottom: 50px;
+  color: #677f8b;
+}
+
+
+/* customer review  */
+
+
+#cust {
+  background: url("img/background.webp");
+  background-size: cover;
+  padding: 50px 0;
+  margin-bottom: 100px;
+  margin-top: 100px;
+}
+
+.content {
+  max-width: 900px;
+  padding-bottom: 50px;
+}
+
+.cust-top h2 {
+  text-align: center;
+  font-size: 45px;
+  font-weight: 700;
+  color: white;
+  margin-bottom: 40px;
+}
+
+.cust-top p {
+  text-align: center;
+  line-height: 1.5;
+  margin-bottom: 32px;
+  font-size: 24px;
+  color: white;
+}
+
+.founder {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.founder-text {
+  margin-left: 20px;
+  text-align: start;
+}
+
+.founder-text span {
+  color: #fff;
+  font-size: 18px;
+  font-weight: 700;
+  display: inline-block;
+  margin-bottom: 10px;
+}
+
+.founder-text p {
+  color: #fff;
+}
+
+
+/* video picture  */
+
+
+.video-body {
+
+  height: auto;
+  width: 100%;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 100px;
+}
+
+/*footer*/
+
+footer {
+  padding-top: 100px;
+  padding-bottom: 20px;
+  margin-top: -3px;
+  background-color: #1a2d6d;
+}
+
+.footer-about a {
+  margin-bottom: 20px;
+}
+
+.footer-about p {
+  color: #8a8fbe;
+  font-size: 16px;
+  margin-bottom: 21px;
+  line-height: 1.8;
+}
+
+.footer-social a {
+  color: #fff;
+  font-size: 22px;
+  padding: 10px;
+  padding-left: 0;
+  padding-right: 15px;
+}
+
+.footer-header {
+  font-family: "Roboto", sans-serif;
+  color: #fff;
+  font-size: 17px;
+  margin-bottom: 30px;
+  font-weight: 700;
+}
+
+.footer-nav ul li,
+.footer-services ul li,
+.footer-contact a {
+  margin-bottom: 20px;
+}
+
+footer ul li a:hover {
+  color: white;
+  text-decoration: underline;
+}
+
+.footer-nav a,
+.footer-services a,
+.footer-contact a {
+  color: #8a8fbe;
+}
+
+.footer-contact{
+  display:flex;
+  flex-direction: column;
+}
+
+.footer-contact i {
+  margin-right: 10px;
+}
+
+.footer-contact a:hover {
+  color: white;
+}
+
+
+/*---Media Queries --*/
+@media (max-width: 992px)
+{
+  .nav-item{
+    padding: 10px;
+  }
+
+  .background
+  {
+    height: 400px;
+  }
+
+  .car
+  {
+    margin-top: 100px;
+    width: 450px;
+  }
+  .destinations{
+    padding: 0px 15%;
+  }
+
+  .cust-top h2
+  {
+    font-size: 45px;
+  }
+
+  .cust-top p
+  {
+    font-size: 18px;
+  }
+  .video-body
+  {
+    height: 450px;
+  }
+  .allcards{
+    width: 100%;
+  }
+
+  .c3{
+    display: none;
+  }
+
+}
+@media (max-width: 768px) {
+
+  .nav-item{
+    padding: 5px;
+  }
+  .display-4
+  {
+    font-size: 40px;
+  }
+  .lead
+  {
+    font-size: 10px;
+  }
+
+  .background
+  {
+    height: 300px;
+    margin-top: 0;
+  }
+
+  .car
+  {
+    width: 290px;
+  }
+  .video-body
+  {
+    height: 350px;
+  }
+  .allcard{
+    width: 100%;
+  }
+
+.c3, .c2{
+  display: none;
+}
+
+
+}
+@media (max-width: 576px)
+{
+  .display-4
+  {
+    font-size: 30px;
+  }
+
+  .lead
+  {
+    font-size: 2px;
+  }
+  .lead2{
+    font-size: 16px;
+  }
+  #cust{
+    padding: 50px 0;
+  }
+  .cust-top h2 {
+    font-size: 30px;
+    margin-bottom: 20px;
+  }
+
+  .cust-top p {
+    font-size: 16px;
+  }
+
+
+  .video-body
+  {
+    height: 250px;
+  }
+.column{
+  width: 50%;
+}
+.pic3 , .pic4 , .pic5 {
+  display: none;
+}
+}
+
+/* --- Bootstrap Padding Fix --
+[class*="col-"] {
+    padding: 1rem;
+} */
